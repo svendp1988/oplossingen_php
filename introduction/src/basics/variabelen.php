@@ -1,0 +1,26 @@
+<?php
+$a = 1;
+print ('a heeft waarde ' . $a . ' en type ' . gettype($a) .'<br/>');
+var_dump($a);
+print ('<br/>');
+$a = "tekst";
+print ('a heeft waarde ' . $a . ' en type ' . gettype($a) .'<br/>');
+var_dump($a);
+print ('<br/>');
+$a = TRUE;
+print ('a heeft waarde ' . $a . ' en type ' . gettype($a) .'<br/>');
+var_dump($a);
+print ('<br/>');
+$a = 1;
+$b = $a;
+$c = & $a;
+$b = 2;
+$c = 3;
+print ($a .'  '. $b . ' ' . $c . '</br>');
+var_dump(1 + "1.22aaaa");
+print ('<br/>');
+var_dump('-' . true . '-' . false . '-');
+print ('<br/>');
+var_dump(1=='1');
+print ('<br/>');
+var_dump(1==='1');

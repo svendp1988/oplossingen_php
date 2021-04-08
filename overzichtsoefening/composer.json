@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Exceptions\\": "src/Exceptions/",
+      "map\\": "src/map/"
+    }
+  }
+}
